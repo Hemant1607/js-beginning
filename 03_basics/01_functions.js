@@ -31,3 +31,35 @@ function loginUserMessage(userName){
 }
 
 console.log(loginUserMessage("Hemant"));
+
+
+function calculateCartPrice(...num1)
+{
+    return num1;
+}
+
+console.log(calculateCartPrice(200, 400, 500, 2000, "Test"));
+
+const user = 
+{
+    userName : "Hemant",
+    age : "25"
+}
+
+function handleObject(anyobject){
+    console.log(`username is ${anyobject.userName} and age in ${anyobject.age}`);
+}
+
+handleObject(user);
+
+handleObject({userName : "Sam", age: "20"});
+
+
+const myNewArray = [200, 500, 100, 600]
+
+function returnSecondValue(getArray)
+{
+    return getArray[1];
+}
+
+console.log(returnSecondValue(myNewArray));
